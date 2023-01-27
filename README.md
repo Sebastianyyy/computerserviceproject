@@ -1,2 +1,3 @@
 # computerserviceproject
-baza danych serwisu komputerowego
+
+projekt zaliczeniowy z kursu "Bazy Danych" na Uniwersytecie Jagiellońskim - informatyka
