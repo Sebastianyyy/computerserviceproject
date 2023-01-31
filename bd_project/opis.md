@@ -16,8 +16,7 @@ Głownym celem, jakim się kierowałem podczas tworzenia bazy to przejrzystość
 
 
 <h2>Pielęgnacja</h2>
-
-
+Nasza baza danych jest dosyć często aktualizowana, ze względu na dodawanie zamówień oraz ich aktualizacji. Zatem, bedzięmy wykonywać codziennie kopie różnicową, a raz na tydzień zalecane jest wykonanie kopii zapasowej pełnej. Wykonywanie kopii zapasowych powinno odbywać się poza godzianami pracy serwisu.
 
 
 <h2>Inne</h2>
