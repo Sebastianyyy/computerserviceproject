@@ -2,16 +2,17 @@ CREATE TABLE Osoby(
 ID INT IDENTITY(1,1) PRIMARY KEY,
 Imie NVARCHAR (32) NOT NULL,
 Nazwisko CHAR(32) NOT NULL,
-[Nr Telefonu] CHAR (9) UNIQUE,
+[Nr Telefonu] CHAR (9) UNIQUE NOT NULL,
 Miejscowosc NVARCHAR(50),
 Ulica NVARCHAR(50),
 [Nr domu] INT,
 [Nr Mieszkania] INT,
-Email NVARCHAR(320) NOT NULL,
+Email NVARCHAR(320) UNIQUE NOT NULL,
 Plec CHAR(1) CHECK(Plec LIKE('M') OR Plec LIKE('F')),
 CHECK ([Nr Telefonu] NOT LIKE '%[^0-9]%'),
 CHECK (Email LIKE '%_@__%.__%')
 )
+
 
 CREATE TABLE Klienci(
 ID INT,
